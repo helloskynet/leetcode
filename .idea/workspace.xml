@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" readonly="true" id="bd36017a-923c-48ae-9f52-4d17cc60ad30" name="默认的" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/5LongestPalindromicSubstring/5LongestPalindromic.js" afterPath="$PROJECT_DIR$/5LongestPalindromicSubstring/5LongestPalindromic.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -30,10 +29,12 @@
       <file leaf-file-name="5LongestPalindromic.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/5LongestPalindromicSubstring/5LongestPalindromic.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-646">
-              <caret line="41" column="9" lean-forward="true" selection-start-line="41" selection-start-column="9" selection-end-line="41" selection-end-column="9" />
+            <state relative-caret-position="323">
+              <caret line="204" column="66" lean-forward="true" selection-start-line="204" selection-start-column="66" selection-end-line="204" selection-end-column="66" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
+                <element signature="n#!!block;n#longestPalindrome2#0" expanded="false" />
+                <element signature="n#!!block;n#huiwen#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -142,11 +143,6 @@
               <item name="LeetCode" type="b2602c69:ProjectViewProjectNode" />
               <item name="LeetCode" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="LeetCode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="LeetCode" type="462c0819:PsiDirectoryNode" />
-              <item name="5LongestPalindromicSubstring" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -195,15 +191,16 @@
       <workItem from="1512728967646" duration="7345000" />
       <workItem from="1512955561712" duration="873000" />
       <workItem from="1513596298716" duration="5031000" />
-      <workItem from="1513657397396" duration="5586000" />
+      <workItem from="1513657397396" duration="9215000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="48944000" />
+    <option name="totallyTimeSpent" value="52573000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17038691" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32991454" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
@@ -212,7 +209,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32991454" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="运行" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.35855263" sideWeight="0.48214287" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.019736841" sideWeight="0.48214287" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -272,6 +269,8 @@
           <caret line="86" column="21" lean-forward="true" selection-start-line="86" selection-start-column="21" selection-end-line="86" selection-end-column="21" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
+            <element signature="n#!!block;n#longestPalindrome2#0" expanded="false" />
+            <element signature="n#!!block;n#huiwen#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -290,6 +289,8 @@
           <caret line="74" column="20" lean-forward="false" selection-start-line="74" selection-start-column="20" selection-end-line="74" selection-end-column="20" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
+            <element signature="n#!!block;n#longestPalindrome2#0" expanded="false" />
+            <element signature="n#!!block;n#huiwen#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -341,6 +342,8 @@
           <caret line="74" column="20" lean-forward="true" selection-start-line="74" selection-start-column="20" selection-end-line="74" selection-end-column="20" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
+            <element signature="n#!!block;n#longestPalindrome2#0" expanded="false" />
+            <element signature="n#!!block;n#huiwen#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -560,10 +563,12 @@
     <entry file="file://$PROJECT_DIR$/5LongestPalindromicSubstring/456.html" />
     <entry file="file://$PROJECT_DIR$/5LongestPalindromicSubstring/5LongestPalindromic.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-646">
-          <caret line="41" column="9" lean-forward="true" selection-start-line="41" selection-start-column="9" selection-end-line="41" selection-end-column="9" />
+        <state relative-caret-position="323">
+          <caret line="204" column="66" lean-forward="true" selection-start-line="204" selection-start-column="66" selection-end-line="204" selection-end-column="66" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
+            <element signature="n#!!block;n#longestPalindrome2#0" expanded="false" />
+            <element signature="n#!!block;n#huiwen#0" expanded="false" />
           </folding>
         </state>
       </provider>
