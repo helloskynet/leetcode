@@ -74,19 +74,19 @@ var largest1BorderedSquare = function (grid) {
   //用dp[i][j][0]来表示第i行第j列的 左边 连续的1的个数
   //用dp[i][j][1]来表示第i行第j列的 上面 连续的1的个数
   let dp = [];
+  for (let i = 0; i <= length; i++) {
+    dp[i] = [];
+    for (let j = 0; j <= width; j++) {
+      dp[i][j] = [0, 0];
+    }
+  }
 
   let maxLen = 0;
   for (let i = 1; i <= length; i++) {
-    if (!dp[i]) {
-      dp[i] = [[[0, 0]]];
-    }
     for (let j = 1; j <= width; j++) {
-      if (!dp[i][j]) {
-        dp[i][j] = [0, 0];
-      }
       if (grid[i - 1][j - 1] == 1) {
-        dp[i][j][0] += (dp[i][j - 1][0] || 0) + 1;
-        dp[i][j][1] += (dp[i - 1][j][1] || 0) + 1;
+        dp[i][j][0] += dp[i][j - 1][0] + 1;
+        dp[i][j][1] += dp[i - 1][j][1] + 1;
         //尝试以第i行第j列(当前点)为右下角构成正方形
         let len = Math.min(dp[i][j][0], dp[i][j][1]); //最大可能长度
         while (len > 0) {
@@ -102,11 +102,12 @@ var largest1BorderedSquare = function (grid) {
   return maxLen * maxLen;
 };
 
-largest1BorderedSquare([
+m = largest1BorderedSquare([
   [1, 1, 1],
   [1, 0, 1],
   [1, 1, 1]
 ]);
+console.log(m);
 largest1BorderedSquare([
   [1, 1, 1],
   [1, 1, 1],
