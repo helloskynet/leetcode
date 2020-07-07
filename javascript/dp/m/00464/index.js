@@ -60,7 +60,7 @@ var canIWin1 = function (maxChoosableInteger, desiredTotal) {
  * @return {boolean}
  */
 var canIWin = function (maxChoosableInteger, desiredTotal) {
-  const use = [];
+  let use = [];
   for (let i = 1; i <= maxChoosableInteger; i++) {
     use[i] = true;
     if (findpath(i)) {
